@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Framework</title>
+
+    <!-- ADOBE FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/ulx1ldv.css">
+
+    <!-- MAIN CSS STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="site-id">
+            <div class="logo">
+                <a href="index.html"><img src="img/tuws-web-logo.png" alt="tuws logo"></a>
+            </div>
+            <h1 class="hide-visually"><a href="index.html">My Framework</a></h1>
+        </div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage.html">Subpage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+
+        <section class="hero">
+            <div class="container">
+                <h1>DN Personal Framework 2021</h1>
+                <p>This is a simple, single page website framework, built with SASS.</p>
+                <a href="#section01" class="button">Go to Section 1</a>
+                <a href="#section02" class="button">Go to Section 2</a>
+                <a href="#section03" class="button">Go to Section 3</a>
+            </div>
+        </section>
+
+
+
+        <section id="section01">
+
+            <div class="container">
+
+
+                <div class="row">
+                    <div class="one-half">
+                        <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    </div>
+                    <div class="one-half">
+                        <h3>Heading 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, fuga, ea illo autem
+                            numquam
+                            distinctio
+                            nostrum quas possimus iste excepturi accusamus atque suscipit perferendis ipsam.</p>
+                        <a href="#" class="button">Button</a>
+                    </div>
+                </div>
+
+                <hr />
+
+            </div>
+
+        </section>
+
+        <section id="section02">
+
+            <div class="container">
+
+                <div class="row swapped">
+                    <div class="one-half">
+                        <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    </div>
+                    <div class="one-half">
+                        <h3>Heading 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, fuga, ea illo autem
+                            numquam
+                            distinctio
+                            nostrum quas possimus iste excepturi accusamus atque suscipit perferendis ipsam.</p>
+                        <a href="#" class="button">Button</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="section03">
+
+            <div class="container">
+
+                <div class="row stacked">
+                    <div class="one-half">
+                        <img src="https://via.placeholder.com/1600x1200" alt="Placeholder">
+                    </div>
+                    <div class="one-half">
+                        <h3>Heading 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, fuga, ea illo autem
+                            numquam
+                            distinctio
+                            nostrum quas possimus iste excepturi accusamus atque suscipit perferendis ipsam.</p>
+                        <a href="#" class="button">Button</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage.html">Subpage</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+</body>
+
+</html>
