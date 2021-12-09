@@ -23,7 +23,16 @@
             </div>
             <h1 class="hide-visually"><a href="index.html">My Framework</a></h1>
         </div>
-        <nav class="site-nav">
+        <nav class="site-nav" data-navstate="open">
+            <h2 class="menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg width="30" height="30">
+                    <title>Menu</title>
+                    <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                    <rect id="menubar-middle" y="8" width="30" height="3"></rect>
+                    <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+                </svg>
+            </h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="subpage.html">Subpage</a></li>
@@ -133,6 +142,9 @@
             speedAsDuration: true
         });
     </script>
+
+    <!-- MAIN JS -->
+    <script src="js/script.js"></script>
 
 </body>
 
